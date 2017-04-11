@@ -1,5 +1,5 @@
 # Python
-Python练习入门和数据仓库搭建
+Python仓中里面简介了python入门源码 and 数据仓库搭建源码
 
 
 ### 大数据测试
