@@ -21,6 +21,13 @@ emp1 = Employee_1("Zara",2000)
 "创建Employee类的第二个对象"
 emp2 = Employee_1("Manni",5000)
 
+emp1.age = 7	#添加一个“age”属性
+
+
+hasattr(emp1,'age')	
+getattr(emp1,'age')
+
+
 emp1.displayEmployee()
 emp2.displayEmployee()
 print "Total Employee %d" %Employee_1.empCount
