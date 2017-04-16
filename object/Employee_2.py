@@ -19,4 +19,6 @@ class Employee_2:
 
 print "Employee_2.__doc__:",Employee_2.__doc__
 print "Employee_2.__name__:",Employee_2.__name__
-
+print "Employee_2.__module__:",Employee_2.__module__
+print "Employee_2.__bases__:",Employee_2.__bases__
+print "Employee_2.__dict__:",Employee_2.__dict__
