@@ -17,3 +17,15 @@ if __name__ == '__main__':
 	miyazakiBirthNextDay = miyazakiBirthDate + datetime.timedelta(days=1)
 	
 	print(miyazakiBirthNextDay.strftime('%d/%m/%Y'))
+
+
+	# 日期替换
+	miyazakiFirstBirthday = miyazakiBirthDate.replace(year=miyazakiBirthDate.year + 1)
+
+	print(miyazakiFirstBirthday.strftime('%d/%m/%Y'))
+
+
+
+
+
+
